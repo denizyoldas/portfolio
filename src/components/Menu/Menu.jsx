@@ -19,6 +19,9 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li onClick={() => setMenuOpen(false)}>
           <a href="#contact">Contact</a>
         </li>
+	<li>
+	 <a href="https://website-denizyoldas.vercel.app/">Site V2 Demo</a>
+	</li>
       </ul>
     </div>
   );
